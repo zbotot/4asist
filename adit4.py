@@ -9,22 +9,22 @@ from datetime import timedelta, date
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-aditmadzs = LineClient(authToken='TOKEN LU')
+aditmadzs = LineClient(authToken='EvxhqvI4idpa4yDncrL4.9UGdRKZXRTi7Enfms1+LPa.OlgZSjYY9PLw5OtDCwytjm2BYJTJuVD74OZJdwS+VrE=')
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='TOKEN LU')
+ki = LineClient(authToken='Evy7OCsYZ8chr5NMYgy6.BaiKNxR2VN7zWCBrQS6P5G.jl5NAyvvW9894OTD1Bk9U7gvYb/gc2WaypEAApxO36Q=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='TOKEN LU')
+kk = LineClient(authToken='Evu5s0D5n8nlvLrt84Ca.UHbbg4pHBjT5VwCYtXmXsG.AY3zejVR4B7uEU9kYp17X3+UG3koCdUS9SCslWdAoZA=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='TOKEN LU')
+kc = LineClient(authToken='EvEk09kUJvUTXAUZNZWa.Oyj1ZAWaMt3CKaVDd5BW2G.0MUkEP4BZLuACIpJOn+KWtykglPbGlE5x5DCg+ZH0PA=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
@@ -360,7 +360,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╭═══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════ SEPRICHE ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Message ══════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
@@ -377,8 +377,8 @@ def help():
                   "║»» " + key + "Listadmin\n" + \
 				  "║»» " + key + "Status\n" + \
 				  "║»════════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~sepriche" + "\n" + \
+                  "╰═════ CREATOR: sepriche"
     return helpMessage
     
     
@@ -387,7 +387,7 @@ def helpcreator():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╭═════════════════════════" + "\n" + \
-                  "║»»══════ Aditmadzs ════════" + "\n" + \
+                  "║»»══════ SEPRICHE ════════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
                   "║»»══════ Help BOT ═══════" + "\n" + \
                   "║»════════════════════════" + "\n" + \
@@ -423,15 +423,15 @@ def helpcreator():
                   "║»» " + key + "Resetkey\n" + \
 				  "║»» " + key + "Self「on/off」\n" + \
                   "║»═════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~sepriche" + "\n" + \
+                  "╰═════ CREATOR: sepriche"
     return helpMessage1
 
 def helpblacklist():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage3 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════ SEPRICHE ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Blacklist ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
@@ -444,15 +444,15 @@ def helpblacklist():
 				  "║»» " + key + "Unban「@」\n" + \
 				  "║»» " + key + "Unban:on\n" + \
 				  "║»══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~sepriche" + "\n" + \
+                  "╰═════ CREATOR: sepriche"
     return helpMessage3
 
 def helpadmin():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage4 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════ SEPRICHE ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Admin ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
@@ -471,15 +471,15 @@ def helpadmin():
                   "║»» " + key + "Staffadd「@」\n" + \
                   "║»» " + key + "Staffdell「@」\n" + \
                   "║»═══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~sepriche" + "\n" + \
+                  "╰═════ CREATOR: sepriche"
     return helpMessage4
     	
 def helpsetting():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage5 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════ SEPRICHE ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Setting ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
@@ -493,15 +493,15 @@ def helpsetting():
 				  "║»» " + key + "Unsend「on/off」\n" + \
                   "║»» " + key + "Welcome「on/off」\n" + \
                   "║»═══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~sepriche" + "\n" + \
+                  "╰═════ CREATOR: sepriche"
     return helpMessage5
     
 def helpprotect():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage6 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════ SEPRICHE ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help Protect ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
@@ -515,15 +515,15 @@ def helpprotect():
                   "║»» " + key + "Protectcancel「on/off」\n" + \
                   "║»» " + key + "Protectinvite「on/off」\n" + \
 				  "║»═══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~sepriche" + "\n" + \
+                  "╰═════ CREATOR: sepriche"
     return helpMessage6
 	
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage8 = "╭══════════════════════════" + "\n" + \
-                  "║»»═══════ Aditmadzs ════════" + "\n" + \
+                  "║»»═══════ SEPRICHE ════════" + "\n" + \
                   "║»══════════════════════════" + "\n" + \
                   "║»»═════ Help BOT ══════" + "\n" + \
                   "║»═════════════════════════" + "\n" + \
@@ -551,8 +551,8 @@ def helpbot():
                   "║»» " + key + "Stealvideoprofile「@」\n" + \
                   "║»» " + key + "Tagall\n" + \
                   "║»══════════════════════════" + "\n" + \
-                  "║»══ http://line.me/ti/p/~adit_cmct" + "\n" + \
-                  "╰═════ CREATOR: ©Aditmadzs™"
+                  "║»══ http://line.me/ti/p/~sepriche" + "\n" + \
+                  "╰═════ CREATOR: sepriche"
     return helpMessage8
 
 def bot(op):
@@ -1561,7 +1561,7 @@ def bot(op):
                         elif cmd == "about" or cmd == "About":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               sendMention(msg.to, sender, "「 Aditmadzs BOT 」\n")
+                               sendMention(msg.to, sender, "「 SEPRI BOT 」\n")
                                aditmadzs.sendMessage(msg.to, None, contentMetadata={'mid': mid}, contentType=13)
 
                         elif cmd == "me" or text.lower() == 'mek':
