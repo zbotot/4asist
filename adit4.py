@@ -31,10 +31,10 @@ kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 poll = LinePoll(aditmadzs)
 call = aditmadzs
-creator = ["u874a7502c02896b2edbb3445c2615d35"]
-owner = ["u874a7502c02896b2edbb3445c2615d35"]
-admin = ["u874a7502c02896b2edbb3445c2615d35"]
-staff = ["u874a7502c02896b2edbb3445c2615d35"]
+creator = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+owner = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+admin = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+staff = ["u9f09cfcb17d037e2936b751bd9d40ead"]
 mid = aditmadzs.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
